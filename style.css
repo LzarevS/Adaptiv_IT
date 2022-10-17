@@ -1,0 +1,37 @@
+div{
+    float: left;
+    height: 300px;
+}
+.div_1 {
+    width: 50%;
+    background-color: blue;
+}
+.div_2 {
+width: 50%;
+background-color: brown;
+}
+.container {
+    margin: 100px 100px 50px 100px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+@media only screen and (max-width:600px)
+{
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.div_1 {
+    width: 50%;
+    background-color: rgb(10, 154, 66);
+    margin-bottom: 50px;
+}
+.div_2 {
+    width: 50%;
+    background-color: rgb(18, 103, 239);
+}
+
+}
